@@ -39,7 +39,7 @@ function App() {
       <div className="app-container">
         <div className="calculator">
           <h1>Discount Calculator</h1>
-          <img src="src/assets/img.jpg" alt="" />
+          <img src="src/assets/girl.jpg" alt="" />
           <div className="inputs">
             <input
               type="text"
