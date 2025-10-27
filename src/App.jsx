@@ -65,8 +65,8 @@ function App() {
         </button>
 
         <div className="result">
-          <h3>Amount you saved : {savedamount} </h3>
-          <h3>Final price :{totalcost} </h3>
+          <h3>Amount Saved & Discount Amount  : {savedamount} </h3>
+          <h3>Final Price :{totalcost} </h3>
         </div>
       </div>
     </>
