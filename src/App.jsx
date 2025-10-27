@@ -22,6 +22,18 @@ function App() {
       settotalcost(0)
     }
   }
+
+
+
+
+
+    const resetFields = () => {
+      setamount('');
+      setdiscount('');
+      setsavedamount(0);
+      settotalcost(0);
+    }
+
   return (
     <>
       <div className="calculator">
@@ -47,6 +59,10 @@ function App() {
           />
         </div>
         <button onClick={calculatediscount}>Calculate</button>
+
+        <button className="reset-btn" onClick={resetFields}>
+          Reset
+        </button>
 
         <div className="result">
           <h3>Amount you saved : {savedamount} </h3>
