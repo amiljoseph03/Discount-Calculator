@@ -66,7 +66,7 @@ function App() {
 
         <div className="result">
           <h3>Amount Saved & Discount Amount  : {savedamount} </h3>
-          <h3>Final Price :{totalcost} </h3>
+          <h3>Final Amount :{totalcost} </h3>
         </div>
       </div>
     </>
