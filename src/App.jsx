@@ -59,7 +59,7 @@ function App() {
               type="number"
               name=""
               id=""
-              placeholder="Enter discount percentage"
+              placeholder="Enter discount %"
               value={discount}
               onChange={(e) => setdiscount(e.target.value)}
             />
