@@ -36,37 +36,38 @@ function App() {
 
   return (
     <>
-      <div className="calculator">
-        <h1>Discount Calculator</h1>
-        <div className="inputs">
-          <input
-            type="text"
-            name=""
-            id=""
-            placeholder="Enter amount"
-            value={amount}
-            onChange={(e) => setamount(e.target.value)}
-          />
-        </div>
-        <div className="input2">
-          <input
-            type="number"
-            name=""
-            id=""
-            placeholder="Enter discount percentage"
-            value={discount}
-            onChange={(e) => setdiscount(e.target.value)}
-          />
-        </div>
-        <button onClick={calculatediscount}>Calculate</button>
-
-        <button className="reset-btn" onClick={resetFields}>
-          Reset
-        </button>
-
-        <div className="result">
-          <h3>Amount Saved & Discount Amount  : {savedamount} </h3>
-          <h3>Final Amount :{totalcost} </h3>
+      <div className="app-container">
+        <div className="calculator">
+          <h1>Discount Calculator</h1>
+          <img src="src/assets/img.jpg" alt="" />
+          <div className="inputs">
+            <input
+              type="text"
+              name=""
+              id=""
+              placeholder="Enter amount"
+              value={amount}
+              onChange={(e) => setamount(e.target.value)}
+            />
+          </div>
+          <div className="input2">
+            <input
+              type="number"
+              name=""
+              id=""
+              placeholder="Enter discount percentage"
+              value={discount}
+              onChange={(e) => setdiscount(e.target.value)}
+            />
+          </div>
+          <button onClick={calculatediscount}>Calculate</button> <br />
+          <button className="reset-btn" onClick={resetFields}>
+            Reset
+          </button>
+          <div className="result">
+            <h3>Amount Saved & Discount Amount : {savedamount} </h3>
+            <h3>Final Amount :{totalcost} </h3>
+          </div>
         </div>
       </div>
     </>
